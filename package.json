@@ -1,0 +1,40 @@
+{
+  "name": "hawk",
+  "displayName": "Hawk",
+  "description": "Hawk Programming Language Syntax Highlighting",
+  "version": "0.0.1",
+  "icon": "icon.png",
+  "publisher": "Durk",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "hawk",
+        "aliases": [
+          "Hawk Programming Language",
+          "hawk"
+        ],
+        "extensions": [
+          ".hawk"
+        ],
+        "icon": {
+          "light": "./icon.png",
+          "dark": "./icon.png"
+        },
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "hawk",
+        "scopeName": "source.hawk",
+        "path": "./syntaxes/hawk.tmLanguage.json"
+      }
+    ]
+  }
+}
