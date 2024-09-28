@@ -2,9 +2,10 @@
   "name": "hawk",
   "displayName": "Hawk",
   "description": "Hawk Programming Language Syntax Highlighting",
-  "version": "0.0.1",
-  "icon": "icon.png",
   "publisher": "Durk",
+  "version": "0.0.1",
+  "repository": "https://github.com/durkisneer1/Hawk-Syntax-Highlighting.git",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.93.0"
   },
